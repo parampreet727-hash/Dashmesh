@@ -20,9 +20,9 @@ const Home = () => {
           </span>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight mb-6 leading-tight">
-            Precision Manufacturing <br />
+            Dashmesh <br />
             <span className="text-transparent bg-clip-text bg-linear-to-r from-red-400 to-red-600">
-              Built to Last.
+              Industry
             </span>
           </h1>
 
