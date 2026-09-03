@@ -32,9 +32,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li>Email: info@dashmeshindustry.com</li>
-              <li>Phone: +91 9876543210</li>
-              <li>Address: Industrial Area, City, State, India</li>
+              <li>Email: Dashmeshindustrydharamgarh20@gmail.com</li>
+              <li>Phone: +91 9501329510</li>
+              <li>Address: Dashmesh Industry, Dharamgarh , Punjab, India</li>
             </ul>
           </div>
         </div>
