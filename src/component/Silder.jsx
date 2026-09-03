@@ -95,13 +95,13 @@ export default function Slider() {
               key={index}
               className="
                 relative
-                h-[180px]
+                h-45
                 min-w-full
                 xs:h-[210px]
-                sm:h-[280px]
-                md:h-[380px]
-                lg:h-[480px]
-                xl:h-[520px]
+                sm:h-70
+                md:h-95
+                lg:h-120
+                xl:h-130
               "
               role="group"
               aria-roledescription="slide"
@@ -129,7 +129,7 @@ export default function Slider() {
                   pointer-events-none
                   absolute
                   inset-0
-                  bg-gradient-to-t
+                  bg-linear-to-t
                   from-black/10
                   via-transparent
                   to-transparent
