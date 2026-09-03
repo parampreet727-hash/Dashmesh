@@ -11,10 +11,10 @@ export default function Silder() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [current]);
 
   const nextSlide = () => {
     setCurrent((prev) => (prev + 1) % images.length);
@@ -25,10 +25,10 @@ export default function Silder() {
   };
 
   return (
-    <div className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-lg">
+    <div className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-lg shadow-xl mt-12 mb-12">
       {/* Slides */}
       <div
-        className="flex transition-transform duration-500 ease-in-out"
+        className="flex transition-transform duration-700 ease-in-out"
         style={{
           transform: `translateX(-${current * 100}%)`,
         }}
@@ -36,7 +36,7 @@ export default function Silder() {
         {images.map((image, index) => (
           <div
             key={index}
-            className="h-55 min-w-full sm:h-75 md:h-100 lg:h-125"
+            className="h-64 min-w-full sm:h-80 md:h-96 lg:h-144"
           >
             <img
               src={image}
