@@ -8,7 +8,7 @@ const Home = () => {
     <main>
       {/* Hero Section */}
       <section className="relative bg-slate-950 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-red-900/40 via-slate-900 to-slate-950/90 z-0"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-red-900/40 via-slate-900 to-slate-950/90 z-0"></div>
 
         {/* Abstract Background Patterns */}
         <div className="absolute top-0 right-0 -mr-32 -mt-32 h-96 w-96 rounded-full bg-red-700/20 blur-3xl"></div>
@@ -21,7 +21,7 @@ const Home = () => {
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight mb-6 leading-tight">
             Precision Manufacturing <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-red-400 to-red-600">
               Built to Last.
             </span>
           </h1>
@@ -153,7 +153,7 @@ const Home = () => {
       </section>
 
       <Silder />
-      
+
       <div className="reveal-on-scroll">
         <About />
       </div>
