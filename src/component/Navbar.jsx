@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 shadow-sm backdrop-blur-md">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-19 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link
             to="/"
@@ -221,7 +221,7 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         <div
           className={`overflow-hidden transition-all duration-300 lg:hidden ${
-            isOpen ? "max-h-162.5 pb-5 opacity-100" : "max-h-0 opacity-0"
+            isOpen ? "max-h-screen pb-5 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <div className="border-t border-slate-100 pt-3">
