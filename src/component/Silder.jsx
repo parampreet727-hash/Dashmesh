@@ -11,10 +11,10 @@ export default function Silder() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 4000);
+    }, 3000);
 
     return () => clearInterval(interval);
-  }, [current]);
+  }, []);
 
   const nextSlide = () => {
     setCurrent((prev) => (prev + 1) % images.length);
@@ -25,10 +25,10 @@ export default function Silder() {
   };
 
   return (
-    <div className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-lg shadow-xl mt-12 mb-12">
+    <div className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-lg">
       {/* Slides */}
       <div
-        className="flex transition-transform duration-700 ease-in-out"
+        className="flex transition-transform duration-500 ease-in-out"
         style={{
           transform: `translateX(-${current * 100}%)`,
         }}
@@ -36,7 +36,7 @@ export default function Silder() {
         {images.map((image, index) => (
           <div
             key={index}
-            className="h-64 min-w-full sm:h-80 md:h-96 lg:h-144"
+            className="h-55 min-w-full sm:h-75 md:h-100 lg:h-125"
           >
             <img
               src={image}
@@ -49,8 +49,6 @@ export default function Silder() {
 
       {/* Previous Button */}
       <button
-        type="button"
-        aria-label="Previous slide"
         onClick={prevSlide}
         className="absolute left-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-xl text-white transition hover:bg-black/80 sm:left-5 sm:h-11 sm:w-11"
       >
@@ -59,8 +57,6 @@ export default function Silder() {
 
       {/* Next Button */}
       <button
-        type="button"
-        aria-label="Next slide"
         onClick={nextSlide}
         className="absolute right-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-xl text-white transition hover:bg-black/80 sm:right-5 sm:h-11 sm:w-11"
       >
@@ -71,9 +67,7 @@ export default function Silder() {
       <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2">
         {images.map((_, index) => (
           <button
-            type="button"
             key={index}
-            aria-label={`Go to slide ${index + 1}`}
             onClick={() => setCurrent(index)}
             className={`h-2.5 w-2.5 rounded-full transition ${
               current === index
