@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-sm text-slate-400 uppercase tracking-wider font-semibold mb-1">Our Location</p>
-                    <p className="text-lg text-slate-200">Industrial Area, City, State,<br/>India - 123456</p>
+                    <p className="text-lg text-slate-200">Dashmesh Industry, Rattangarh Pattianwali, Punjab,<br/>India - 148028</p>
                   </div>
                 </div>
                 
@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-sm text-slate-400 uppercase tracking-wider font-semibold mb-1">Call Us</p>
-                    <p className="text-lg text-slate-200">+91 9876543210</p>
+                    <p className="text-lg text-slate-200">+91 9501329510</p>
                   </div>
                 </div>
                 
