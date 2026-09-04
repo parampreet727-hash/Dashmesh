@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>Email: Dashmeshindustrydharamgarh20@gmail.com</li>
               <li>Phone: +91 9501329510</li>
-              <li>Address: Dashmesh Industry, Dharamgarh , Punjab, India</li>
+              <li>Address: Dashmesh Industry, Rattangarh Pattianwali, Punjab, India</li>
             </ul>
           </div>
         </div>
