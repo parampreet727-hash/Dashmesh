@@ -153,7 +153,7 @@ const Navbar = () => {
               to="/contact"
               className="rounded-lg px-3.5 py-2.5 text-sm font-semibold text-slate-700 transition-all hover:bg-slate-100 hover:text-red-700"
             >
-              Contact
+              Contact Us
             </Link>
 
             {/* CTA */}
