@@ -11,7 +11,7 @@ const About = () => {
           </span>
 
           <h2 className="mt-5 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Precision Engineering.
+            Dashmesh Industry
             <span className="block text-red-700">
               Reliable Manufacturing.
             </span>
