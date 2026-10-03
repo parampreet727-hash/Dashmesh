@@ -26,7 +26,7 @@ const Contact = () => {
             Get in touch
           </span>
           <h2 className="text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">
-            Let's Start a Conversation
+            Let's Start a Conversation Dashmesh Industry 
           </h2>
           <p className="mt-6 text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
             Have a project in mind or need a custom quote? Our team is ready to provide you with the best manufacturing solutions.
